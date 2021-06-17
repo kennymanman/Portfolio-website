@@ -15,7 +15,7 @@
   color: black;
   position:relative;
   padding-top: 90px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -43,8 +43,8 @@ text-align: right ;
 
 .intro{
 
-  font-family: 'Inter', sans-serif;
-  font-size: 73px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
   color:black;
   padding-top: 5px;
 }
@@ -52,8 +52,8 @@ text-align: right ;
 .nextintro{
 
   color: yellow;
-  font-size: 18px;
-  font-family: 'Inter', sans-serif;
+  font-size: 17.5px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .awslogo{
@@ -66,7 +66,7 @@ text-align: right ;
   margin-left: 9px; 
   position: relative;
   padding-top: 3px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .awsrow{
   margin-top: 220px;
@@ -90,9 +90,9 @@ text-align: right ;
 
 .textminor{
   position: relative;
-  font-size: 16px;
-  color:black;
-  font-family: 'Inter', sans-serif;
+  font-size: 16.5px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -103,7 +103,7 @@ text-align: right ;
 
 .protext{
   font-family: 'Bebas Neue', cursive;
-  font-size: 80px;
+  font-size: 90px;
   position: relative;
   color:yellow;
   margin-top: 220px;
@@ -142,16 +142,16 @@ margin-top: 50px;
 
 .bottomtitle{
 
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   margin-top: 190px;
-  color:black;
+  color:white;
   font-size: 25px;
 }
 
 
 .bottomtexts{
-  color:black;
+  color:white;
   margin-top: 10px;
 }
 
@@ -164,6 +164,7 @@ margin-top: 50px;
 
 .bottomlinktwo{
   color:aliceblue;
+  
 
 }
 .projectpageheader{
@@ -236,7 +237,7 @@ margin-top: 50px;
   font-size: 90px;
   padding-top: 120px;
   position: relative;
-  color: yellow;
+  color: black;
 }
 
 .contactabout{
@@ -284,10 +285,13 @@ margin-top: 50px;
   margin-top: 600px;
 }
 .resume{
-  color: white;
+  color: yellowgreen;
 }
 .og{
   color:black;
+}
+.resumetwo{
+  color: white;
 }
 
 

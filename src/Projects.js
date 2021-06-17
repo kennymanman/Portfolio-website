@@ -3,13 +3,15 @@ import Layout from "./Layout"
 import * as ReactBootStrap from "react-bootstrap"
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlineGithub } from "react-icons/ai";
+import {AiFillProfile} from "react-icons/ai";
+import { GrLinkedin } from "react-icons/gr";
 import pold from "./Video/pold.mp4"
 import bbbogi from "./Images/bbbogi.jpg"
 import lion from "./Images/lion.jpg"
 import vold from "./Video/vold.mp4"
 import tion from "./Images/tion.jpg"
 import peogi from "./Images/peogi.jpg"
-
+import tide from "./Images/tide.jpg"
 
 
 
@@ -62,15 +64,19 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 </p>
+<a href="https://www.gardenstoreapp.com" target= "blank">
 <ReactBootStrap.Button variant="dark" >
 View Site
 <CgWebsite />
 </ReactBootStrap.Button>
+</a>
 
+<a href="https://github.com/kennymanman/Grocery-app-landing-page" target="blank">
 <ReactBootStrap.Button className="buttonslink" variant="dark">                                   {/*classname for the last button*/}
 View Code
 <AiOutlineGithub/>
 </ReactBootStrap.Button>
+</a>
 </ReactBootStrap.Col>
 </ReactBootStrap.Row>
 
@@ -101,14 +107,20 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 printer took a galley of type and scrambled it to make a type specimen book.
 </p>
 
+<a href="https://www.gardenstorevendor.com" target= "blank">
 <ReactBootStrap.Button variant="dark" >
 View Site
 <CgWebsite />
 </ReactBootStrap.Button>
+</a>
+
+<a href="https://github.com/kennymanman/Grocery-app-vendor-page" target= "blank">
 <ReactBootStrap.Button className="buttonslink" variant="dark">
 View Code
 <AiOutlineGithub/>
 </ReactBootStrap.Button>
+</a>
+
 </ReactBootStrap.Col>
 </ReactBootStrap.Row>
 
@@ -137,14 +149,14 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 </p>
-<ReactBootStrap.Button variant="dark" >
-View Site
-<CgWebsite />
-</ReactBootStrap.Button>
+
+<a href="https://github.com/kennymanman/Grocer-app" target= "blank">
 <ReactBootStrap.Button className="buttonslink" variant="dark">
 View Code
 <AiOutlineGithub/>
 </ReactBootStrap.Button>
+</a>
+
 </ReactBootStrap.Col>
 </ReactBootStrap.Row>
 </Layout>
@@ -153,7 +165,7 @@ View Code
 
 < img  alt="loading"
   className="bottomimage"
-  fluid src={peogi}
+  fluid src={tide}
   />
 
 <Layout>
@@ -166,8 +178,9 @@ View Code
 </h6>
 <h6  className="bottomtexts">I'd love to hear from you.</h6>
 <ReactBootStrap.Row >
-<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'>Resume</a>
-<a  className="bottomlinktwo" href='mailto:jack@semantic-ui.com'>LinkedIn</a>
+<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'><AiFillProfile/>Resume</a>
+
+<a className="bottomlinktwo" href="https://www.linkedin.com/in/okafor-ekene-andre-805035193/" target= "blank"><GrLinkedin />LinkedIn</a>
 </ReactBootStrap.Row>
 <p className="bottomtexts">© 2021 Okafor Ekene Andre . All Rights Reserved.</p>
 </ReactBootStrap.Col>

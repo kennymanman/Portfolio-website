@@ -6,6 +6,10 @@ import awged from "./Images/awged.PNG"
 import loud from "./Images/loud.jpg"
 import bbbogi from "./Images/bbbogi.jpg"
 import peogi from "./Images/peogi.jpg"
+import tide from "./Images/tide.jpg"
+import {AiFillProfile} from "react-icons/ai";
+import { GrLinkedin } from "react-icons/gr";
+
 
 
 function About() {
@@ -67,7 +71,7 @@ Blockchain<br/> Certificate
 
 < img  alt="loading"
   className="bottomimage"
-  fluid src={peogi}
+  fluid src={tide}
   />
 
 <Layout>
@@ -80,8 +84,9 @@ Blockchain<br/> Certificate
 </h6>
 <h6  className="bottomtexts">I'd love to hear from you.</h6>
 <ReactBootStrap.Row >
-<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'>Resume</a>
-<a  className="bottomlinktwo" href='mailto:jack@semantic-ui.com'>LinkedIn</a>
+<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'><AiFillProfile/>Resume</a>
+
+<a className="bottomlinktwo" href="https://www.linkedin.com/in/okafor-ekene-andre-805035193/" target= "blank"><GrLinkedin />LinkedIn</a>
 </ReactBootStrap.Row>
 <p className="bottomtexts">© 2021 Okafor Ekene Andre . All Rights Reserved.</p>
 </ReactBootStrap.Col>

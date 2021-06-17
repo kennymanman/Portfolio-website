@@ -3,8 +3,11 @@ import Layout from "./Layout"
 import * as ReactBootStrap from "react-bootstrap"
 import { GrLinkedin } from "react-icons/gr";
 import { AiFillMail } from "react-icons/ai";
-import bbbogi from "./Images/bbbogi.jpg"
 import hogi from "./Images/hogi.jpg"
+import tide from "./Images/tide.jpg"
+import {AiFillProfile} from "react-icons/ai";
+
+
 
 function Contact() {
     return (
@@ -12,9 +15,7 @@ function Contact() {
 <div>
 
 
-< img alt="loading"
-className="finalimage"
-fluid src={hogi}  />                                                     {/*background image of page*/}
+                                                    {/*background image of page*/}
 
 <Layout>
 
@@ -47,7 +48,7 @@ while growing as a developer.
 <h3 className="contactabout">Contact Info</h3> 
                                               {/*contact me title*/}
 <p><AiFillMail className="iconfirst" /><a className="og"  href='mailto:okaforekeneandre@gmail.com'> Okaforekeneandre@gmail.com</a><br/>    {/*first icon*/}
-<GrLinkedin className="iconsecond" /> <a  className="og"href='mailto:okaforekeneandre@gmail.com'> Okafor Ekene Andre</a>  </p>          {/*second icon*/}
+<GrLinkedin className="iconsecond" /> <a  className="og" href="https://www.linkedin.com/in/okafor-ekene-andre-805035193/" target= "blank"> Okafor Ekene Andre</a>  </p>          {/*second icon*/}
 </ReactBootStrap.Col>
 </ReactBootStrap.Row>
 
@@ -59,7 +60,7 @@ while growing as a developer.
 
   < img  alt="loading"
   className="bottomimage"
-  fluid src={bbbogi}
+  fluid src={tide}
   />
 
 <Layout>
@@ -72,8 +73,8 @@ while growing as a developer.
 </h6>
 <h6  className="bottomtexts">I'd love to hear from you.</h6>
 <ReactBootStrap.Row >
-<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'>Resume</a>
-<a  className="bottomlinktwo" href='mailto:jack@semantic-ui.com'>LinkedIn</a>
+<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'><AiFillProfile/>Resume</a>
+<a className="bottomlinktwo" href="https://www.linkedin.com/in/okafor-ekene-andre-805035193/" target= "blank"><GrLinkedin />LinkedIn</a>
 </ReactBootStrap.Row>
 <p className="bottomtexts">© 2021 Okafor Ekene Andre . All Rights Reserved.</p>
 </ReactBootStrap.Col>

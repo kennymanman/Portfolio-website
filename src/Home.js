@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import Layout from "./Layout"
 import { GrLinkedin } from "react-icons/gr";
+import {AiFillProfile} from "react-icons/ai";
+
+
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import * as ReactBootStrap from "react-bootstrap"
@@ -11,15 +14,11 @@ import { SiExpo } from "react-icons/si";
 import xash from "./Images/xash.PNG"
 import zash from "./Images/zash.PNG"
 import bash from "./Images/bash.png"
-import vion from "./Images/vion.jpg"
-import hogi from "./Images/hogi.jpg"
-import bbbogi from "./Images/bbbogi.jpg"
-import lart from "./Images/lart.jpg"
-import xiot from "./Images/xiot.jpg"
+
+import tide from "./Images/tide.jpg"
 import {LinkContainer} from 'react-router-bootstrap'
 import yion from "./Images/yion.jpg"
 import loud from "./Images/loud.jpg"
-import peogi from "./Images/peogi.jpg"
 
 
 
@@ -65,7 +64,7 @@ Frontend developer &<br/>AWS Solutions Architect
 
 <p className="nextintro">
 Hey my name is Okafor Ekene Andre, i'm a frontend developer & AWS solutions architect.<br/> A software developer
-with a passion for UX/UI design.<h8 className="resume"> See my Resume. </h8> <br/>
+with a passion for UX/UI design.<h8 className="resumetwo"> See my Resume. </h8> <br/>
 </p>
 </ReactBootStrap.Col>
 
@@ -89,14 +88,14 @@ AWS Certified Solutions Architect
 
 < img  alt="loading"
        className="nextimage"
-       fluid src={loud}  /> 
+       fluid src={tide}  /> 
 
 
 <Layout>
   <ReactBootStrap.Row>
 <ReactBootStrap.Col>
 <p className="tooltext">My<br/>Development<br/>Tools</p>
-<p className="textminor">Here are the tools, frameworks and programming languages i use in <br/>
+<p className="textminor">Here are the tools, frameworks and programming languages i use in 
  building my projects, from  <h8 className="resume">  React Js, Javascript, HTML, CSS, Bootstrap, Material UI, Amazon Web Services, React Native, Expo, Netlify, NPM.</h8> 
 </p>
  
@@ -140,7 +139,7 @@ AWS Certified Solutions Architect
 
 < img  alt="loading"
   className="proimage"
-  fluid src={hogi}  />
+  fluid src={loud}  /> 
 
 <Layout>
 <ReactBootStrap.Row>
@@ -208,7 +207,7 @@ AWS Certified Solutions Architect
 
 < img  alt="loading"
   className="bottomimage"
-  fluid src={peogi}
+  fluid src={tide}
   />
 
 <Layout>
@@ -221,8 +220,9 @@ AWS Certified Solutions Architect
 </h6>
 <h6  className="bottomtexts">I'd love to hear from you.</h6>
 <ReactBootStrap.Row >
-<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'>Resume</a>
-<a  className="bottomlinktwo" href='mailto:jack@semantic-ui.com'>LinkedIn</a>
+<a className="bottomlinkone"  href='mailto:jack@semantic-ui.com'><AiFillProfile/>Resume</a>
+
+<a className="bottomlinktwo" href="https://www.linkedin.com/in/okafor-ekene-andre-805035193/" target= "blank"><GrLinkedin />LinkedIn</a>
 </ReactBootStrap.Row>
 <p className="bottomtexts">© 2021 Okafor Ekene Andre . All Rights Reserved.</p>
 </ReactBootStrap.Col>
