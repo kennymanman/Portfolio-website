@@ -1,38 +1,548 @@
-.App {
-  text-align: center;
+
+
+.bigimage{
+
+  position: absolute;
+  height:1248px;
+  width: 1523px;
+ 
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.firsttext{
+
+  color: black;
+  position:relative;
+  padding-top: 90px;
+  font-family: 'Inter', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.firsttopicon{
+  font-size: x-large;
+  color:aliceblue;
+  margin-left: 930px;  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+
+.topicons{
+  font-size: x-large;
+  color:aliceblue;
+  margin-left: 25px;
+}
+
+
+
+.firsttext{
+text-align: right ;
+}
+
+.intro{
+
+  font-family: 'Inter', sans-serif;
+  font-size: 73px;
+  color:black;
+  padding-top: 5px;
+}
+
+.nextintro{
+
+  color: yellow;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+.awslogo{
+  font-size: 35px;
+  color: aliceblue;
+  position: relative;
+}
+.awstext{
+  color: black;
+  margin-left: 9px; 
+  position: relative;
+  padding-top: 3px;
+  font-family: 'Inter', sans-serif;
+}
+.awsrow{
+  margin-top: 220px;
+}
+
+.nextimage{
+  height:650px;
+  width:1523px;
+  position: absolute;
+  margin-top: 21px;
+  
+}
+
+.tooltext{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 87px;
+  position: relative;
+  color:yellow;
+  margin-top: 120px;
+}
+
+.textminor{
+  position: relative;
+  font-size: 16px;
+  color:black;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.iconrow{
+  position: relative;
+  margin-top: 120px;
+}
+
+.protext{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  position: relative;
+  color:yellow;
+  margin-top: 220px;
+  
+
+}
+.proimage{
+position:absolute;
+height:850px;
+width:1523px;
+margin-top: 50px;
+
+}
+.carousel{
+  width:650px;
+  height:350px;
+  margin-top:120px;
+  margin-bottom: 50px;
+
+}
+.prominor{
+  position: relative;
+  font-size: 14px;
+  color:black;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.bottomimage{
+
+  position: absolute ;
+  width:1523px;
+  height:300px;
+  margin-top: 120px;
+}
+
+.bottomtitle{
+
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  margin-top: 190px;
+  color:black;
+  font-size: 25px;
+}
+
+
+.bottomtexts{
+  color:black;
+  margin-top: 10px;
+}
+
+.bottomlinkone{
+  color:aliceblue;
+  align-content: space-between;
+  margin-left: 12px;
+  margin-right: 80px;
+}
+
+.bottomlinktwo{
+  color:aliceblue;
+
+}
+.projectpageheader{
+  font-size: 100px;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 120px;
+  color:yellow;
+
+}
+
+.projectpagetitle{
+  margin-top: 180px;
+  color:black;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.videoimage{
+
+    object-fit: "contain";
+    height:650px;
+    width:600px;
+}
+
+.firstrow{
+  margin-top:1px;
+}
+
+.projectdef{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;  
+  margin-top: 160px;
+}
+.projectinfo{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px; 
+}
+.secondrow{
+  margin-top: 0px;
+}
+.buttonslink{
+  margin-left: 12px;
+}
+.certimg{
+  width:550px;
+  height:600px;
+}
+.certinfo{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+}
+
+.certone{
+  margin-top: 180px;
+}
+.certtwo{
+  margin-top: 180px; 
+}
+
+.certimgtwo{
+  width:550px;
+  margin-top: 80px;
+  
+}
+.certinfotwo{
+  margin-top: 80px;
+}
+.contacttitle{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 90px;
+  padding-top: 120px;
+  position: relative;
+  color: yellow;
+}
+
+.contactabout{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  margin-top: 70px;
+}
+
+.iconfirst{
+  font-size: 27px;
+  margin-right:20px;
+  margin-top: 10px;
+  
+}
+.iconsecond{
+  font-size: 27px;
+  margin-right:20px;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+.projectimage{
+  width:1523px;
+  height:2550px;
+  position:absolute;
+}
+.certlarge{
+  width:1523px;
+  height:1500px;
+  position:absolute;
+}
+.textin{
+  color: aliceblue;
+}
+.finalimage{
+  position: absolute;
+  height:1020px;
+  width:1523px;
+}
+.contactinfo{
+  position: relative;
+  font-family: 'Inter', sans-serif;
+
+}
+.linktext{
+  margin-top: 600px;
+}
+.resume{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.og{
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:734px) {
+  
+  .bigimage{
+    height: 850px;
+    width:414px;
   }
-  to {
-    transform: rotate(360deg);
+
+
+  .firsttext{
+    font-size: 12px;
+    text-align: left;
   }
+
+  .firsttopicon{
+    font-size: 15px;
+    color:aliceblue;
+    margin-left: 9px;  
+  
+  }
+  .topicons{
+    font-size: 15px;
+    color:aliceblue;
+    margin-left: 25px;
+  }
+  .intro{
+
+    font-family: Newsreader;
+    font-size: 45px;
+    color:aliceblue;
+    padding-top: 72px;
+  }
+  .nextintro{
+
+    color: aliceblue;
+    font-size: 10px;
+    margin-top: 120px;
+  }
+  .awsrow{
+    margin-top: 27px;
+  }
+  
+  .awslogo{
+    margin-left: 30px;
+    align-self: center;
+    font-size: 26px;
+  }
+  .awstext{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 7px;
+  }
+  .nextimage{
+    margin-top: 10px;
+    width:414px;
+    height: 890px;
+  }
+  .tooltext{
+    font-size: 59px;
+    margin-top: 70px;
+  }
+  .toolminor{
+    font-size: 15px;
+  }
+  .iconrow{
+    margin-top: 5px;
+  }
+  .icons{
+    font-size: 6px;
+    color:white;
+  }
+  .proimage{
+    margin-top: 150px;
+    width:414px;
+  }
+.bottomimage{
+  width:384px;
 }
+.protext{
+  font-size: 59px; 
+}
+
+.prominor{
+  font-size: 14px;
+}
+
+.carousel{
+  width:345px;
+  height:200px;
+  margin-top: 30px;
+}
+.bottomimage{
+  width:480px;
+  height:200px;
+  margin-top:200px;;
+}
+.bottomtitle{
+  font-size: 16px;
+  margin-top: 220px;
+}
+.bottomtexts{
+  font-size: 12px;
+}
+.certifiedimage{
+  height:500px;
+  position: absolute;
+
+}
+.projectpageheader{
+  font-size: 60px;
+  margin-right: 20px;
+}
+.projectimage{
+  width:480px;
+  height: 2600px;
+}
+.projectpagetitle{
+  color:aliceblue;
+  font-size: 14px;
+  margin-top: 30px;
+  
+
+}
+.videoimage{
+  width:347px;
+  height:200px;
+  margin-top: 49px;
+}
+.projectdef{
+  font-size: 45px;
+  margin-top: 17px;
+}
+.projectinfo{
+  font-size: 22px;
+}
+.certlarge{
+  width:480px;
+  height:1419px;
+}
+.certone{
+  margin-top: 83px;
+}
+.certinfo{
+  font-size: 45px;
+  margin-top: 50px;
+
+}
+.certinfotwo{
+  margin-top: 20px;;
+}
+.finalimage{
+  width: 480px;
+  height:1035px;
+}
+.contactabout{
+  margin-top: 50px;
+  font-size: 40px;
+}
+.secondicon{
+  margin-left:90px;
+}
+.contacttitle{
+  font-size: 60px;
+}
+.contactinfo{
+  font-size: 14px;
+}
+.textin{
+  font-size: 14px;
+}
+.navname{
+  font-size: 15px;;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1068px) {
+
+.bigimage{
+  height:1000px;
+}
+.nextimage{
+  margin-top: 50px;
+}
+.firsttext{
+  text-align: end;
+}
+.firsttopicon{
+  margin-left: 12px;
+}
+.nextintro{
+  font-size: 21px;
+  margin-top: 180px;
+}
+.intro{
+  margin-top: 59px;
+}
+
+.awsrow{
+  margin-top: 50px;
+}
+.awslogo{
+  margin-left: 20px;
+}
+
+}
+@media only screen and (max-height:1024px), only screen and (max-width:768px){
+.nextimage{
+  height: 980px;
+  
+}
+
+
+}
+
