@@ -1,6 +1,209 @@
 
 
-.bigimage{
+.navname{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  color: white;
+}
+.navprojects{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+}
+
+.navcert{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+
+}
+
+.navcontact{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 18px; 
+}
+
+.bigintro{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:white;
+  font-size: 75px;
+  padding-top: 112px;
+}
+.nextintro{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  padding-top: 25px;
+  font-size: 23px;
+}
+.linkicon{
+  color:white;
+  font-size: 25px;
+  margin: 15px;
+}
+.awslogo{
+  color:white;
+  margin-top: 90px;
+  font-size: 40px;
+  
+}
+.awstext{
+  color:white;
+  margin-top: 90px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 11px;
+  
+}
+
+
+.devhead{
+  color:white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+ 
+
+}
+
+.devsub{
+  color:white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px; 
+}
+.toolicons{
+  color:white;
+  font-size: 40px;
+  margin: 9px;
+}
+.devrow{
+  padding-top: 170px;
+}
+.projecthead{
+  color:white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px; 
+}
+.projectsub{
+  color:white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;  
+}
+.carousel{
+  width:600px;
+  height:350px;
+
+}
+.projectrow{
+  padding-top: 160px;
+}
+.endtitle{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 25px;
+  color: black;
+  font-size: 25px;
+}
+.endicon{
+  color:black;
+  font-size: 17px;
+  margin:10px;
+  margin-top: 30px;
+}
+.endsub{
+  font-size: 13px;
+}
+.love{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  padding-top: 30px;
+}
+.projecttitle{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;  
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.projecttitlesub{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;  
+  font-size: 19px; 
+  padding-top: 20px;
+}
+.videos{
+  width:600px;
+  height:400px;
+}
+.projectname{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white; 
+  padding-top: 19px; 
+}
+.projectstack{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  padding-top: 18px;
+}
+.projectinfo{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size:15px ;
+  padding-top: 40px;  
+}
+.button{
+  margin:7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*.bigimage{
 
   position: absolute;
   height:1248px;
@@ -550,3 +753,4 @@ margin-top: 50px;
 
 }
 
+*/}

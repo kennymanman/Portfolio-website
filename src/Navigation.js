@@ -9,13 +9,13 @@ export default function Navigation() {
     <div>
 
 
-    <Layout>
+    
 
-<ReactBootStrap.Navbar  expand="lg" fixed="top" >
+<ReactBootStrap.Navbar  expand="lg" fixed="top" style={{borderBottomColor:'white'}} >
 
-
+<Layout>
 <LinkContainer to="/">
-    <ReactBootStrap.Navbar.Brand  href="#home"><p style={{fontSize:21, marginTop:10 , fontFamily:"archivo black"}}>Okafor Ekene Andre.</p></ReactBootStrap.Navbar.Brand>
+    <ReactBootStrap.Navbar.Brand  href="#home"><p className="navname">okafor ekene andre.</p></ReactBootStrap.Navbar.Brand>
 </LinkContainer>
 
 < ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,12 +27,12 @@ export default function Navigation() {
 
 
    <LinkContainer to="/Projects">
-      <ReactBootStrap.Nav.Link style={{}} href="/Projects"><p style={{marginTop:12, color:"black" , fontFamily:"archivo black"}}>Projects</p></ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link style={{}} href="/Projects"><p className="navprojects">projects</p></ReactBootStrap.Nav.Link>
     </LinkContainer>
 
 
     <LinkContainer to="/About">
-      <ReactBootStrap.Nav.Link href="/About"><p style={{marginTop:12, color:"black", fontFamily:"archivo black"}}>Certifications</p></ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="/About"><p className="navcert">certifications</p></ReactBootStrap.Nav.Link>
     </LinkContainer>
 
 
@@ -40,18 +40,18 @@ export default function Navigation() {
 
 
    <LinkContainer to="/Contact">
-      <ReactBootStrap.Nav.Link href="/Contact"><p style={{marginTop:12, color:"black", fontFamily:"archivo black"}}>Contact</p></ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link href="/Contact"><p className="navcontact">contact</p></ReactBootStrap.Nav.Link>
     </LinkContainer>
 
   </ReactBootStrap.Navbar.Collapse>
 
 
-
+</Layout>
 
   </ReactBootStrap.Navbar>
 
 
-  </Layout>
+  
 
   
     
