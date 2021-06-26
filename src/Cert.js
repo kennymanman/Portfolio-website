@@ -3,7 +3,7 @@ import Layout from "./Layout"
 import * as ReactBootStrap from "react-bootstrap"
 import { BsLink45Deg } from "react-icons/bs";
 import awge from "./Images/awge.PNG"
-import awged from "./Images/awged.PNG"
+import awg from "./Images/awg.png"
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { GrLinkedin } from "react-icons/gr";
@@ -16,7 +16,7 @@ export default function Cert() {
 return (
 
 
-<div style={{backgroundColor:"black", height:1070, paddingTop:60}}>
+<div className="certpagediv">
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
 
@@ -52,11 +52,11 @@ return (
 
 <ReactBootStrap.Col>
 
-<ReactBootStrap.Image className="certimage" src={awged} fluid />
+<ReactBootStrap.Image className="certimage" src={awg} fluid />
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
-<h2 className="certname"> Blockchain certificate</h2>
+<h2 className="certname"> Blockchain technology certificate</h2>
 <a href="https://courses.edx.org/certificates/15dfd5dbb7c64977a4c583e97f924768" target= "blank">
 <BsLink45Deg className="linkicon" />
 </a>
@@ -68,7 +68,7 @@ return (
 
 
 
-<diV style={{backgroundColor:"white", height:80, marginTop:26}}>
+<diV className="bottomdiv">
 <Layout>
 
 <ReactBootStrap.Row>

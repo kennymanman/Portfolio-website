@@ -1,20 +1,10 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import { GrLinkedin } from "react-icons/gr";
-import {AiFillProfile} from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import * as ReactBootStrap from "react-bootstrap"
-import { FaReact } from "react-icons/fa";
-
-
 import xash from "./Images/xash.PNG"
 import zash from "./Images/zash.PNG"
-import bash from "./Images/bash.png"
-
-import tide from "./Images/tide.jpg"
-import {LinkContainer} from 'react-router-bootstrap'
-import yion from "./Images/yion.jpg"
-import loud from "./Images/loud.jpg"
 import pipe from "./Images/pipe.png"
 import Layout from "./Layout";
 import { SiReact,SiJavascript,SiHtml5,SiCss3,SiBootstrap,SiMaterialUi,SiAmazonaws,SiExpo,SiNetlify,SiGithub,SiNpm,SiVisualstudio } from "react-icons/si";
@@ -25,7 +15,7 @@ function Home() {
 return (
 
 
-<div style={{backgroundColor:"black", height:1800, paddingTop:60}}>
+<div className="homepagediv">
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
 
@@ -38,8 +28,8 @@ return (
 </h2>
 
 <h3 className="nextintro">
-    Hi my name is Okafor Ekene Andre, i'm a frontend developer & AWS Certified<br/>
-    solutions architect.
+    Hi my name is Okafor Ekene Andre, i'm a frontend developer & AWS Certified
+    solutions architect.<br/>
     A software developer with a passion for UI/UX designs.
 </h3>
 <ReactBootStrap.Row>
@@ -159,7 +149,7 @@ for developing my projects.</h1>
 
 
 
-<diV style={{backgroundColor:"white", height:80, marginTop:26}}>
+<diV className="bottomdiv">
 <Layout>
 
 <ReactBootStrap.Row>

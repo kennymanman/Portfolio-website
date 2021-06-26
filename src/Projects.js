@@ -5,7 +5,6 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlineGithub } from "react-icons/ai";
-import {AiFillProfile} from "react-icons/ai";
 import { GrLinkedin } from "react-icons/gr";
 import pold from "./Video/pold.mp4"
 
@@ -16,9 +15,9 @@ import pold from "./Video/pold.mp4"
 
 export default function Projects() {
     return (
-        
 
-<div style={{backgroundColor:"black", height:1600, paddingTop:60}}>
+
+<div className="projectpagediv">
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
 
@@ -44,10 +43,10 @@ className="videos"
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
-  <h2 className="projectname">Ecommerce App landing page</h2> 
+  <h2 className="projectname">Ecommerce app landing page</h2> 
   <h4 className="projectstack">Development Stack: React Js, React-Router, React-Bootstrap, Javascript, HTML, CSS, Netlify</h4> 
-  <p className="projectinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <p className="projectinfo">Designed and built an e-commerce app landing website with a unique design using React Js.
+  Aim of this project was to create a website for users to connect to a download link to the ecommerce app.</p>
 
   <a href="https://www.gardenstoreapp.com" target= "blank">
 <ReactBootStrap.Button className="button" size={"sm"} variant="light" >
@@ -85,8 +84,8 @@ className="videos"
 <ReactBootStrap.Col>
   <h2 className="projectname">Ecommerce vendor website</h2> 
   <h4 className="projectstack">Development Stack: React Js, React-Router, React-Bootstrap, Javascript, HTML, CSS, Netlify</h4> 
-  <p className="projectinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <p className="projectinfo"> Built this project as a way for product vendors to sell their products and get real-time 
+  analytics of their product sales. This project is still in development.</p>
 
   <a href="https://www.gardenstorevendor.com" target= "blank">
 <ReactBootStrap.Button className="button" size={"sm"} variant="light" >
@@ -128,10 +127,10 @@ className="videos"
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
-  <h2 className="projectname">Ecommerce Grocery app</h2> 
+  <h2 className="projectname">Ecommerce grocery app</h2> 
   <h4 className="projectstack">Development Stack: React Native, React Navigation, Expo, JavaScript, React native icons</h4> 
-  <p className="projectinfo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <p className="projectinfo">Developed this project to aid the agricultural sector through technological innovation.
+  The app connects grocery store owners to customers in the area.</p>
 
  
 
@@ -149,7 +148,9 @@ View Code
 
 </Layout>
 
-<diV style={{backgroundColor:"white", height:80, marginTop:26}}>
+
+
+<diV className="bottomdiv">
 <Layout>
 
 <ReactBootStrap.Row>

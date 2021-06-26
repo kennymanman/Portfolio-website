@@ -9,7 +9,7 @@ export default function Contact() {
     return (
 
         
-<div style={{backgroundColor:"black", height:1010, paddingTop:60}}>
+<div className="contactpagediv">
 
 <hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
 
@@ -25,10 +25,7 @@ export default function Contact() {
 <ReactBootStrap.Row>
 <ReactBootStrap.Col >
 <h3 className="aboutmetitle">A little <br/> about me.</h3>
-</ReactBootStrap.Col>
 
-
-<ReactBootStrap.Col>
 <p className="aboutmeinfo">
 I am a self-taught frontend developer with certified knowledge in Amazon Web Services.
 I love to build impressive designs for websites & mobile apps.
@@ -37,8 +34,10 @@ Currently i am learning backend frameworks as to become a full stack developer.
 I am open to opportunities that enable me to positively impact businesses and individuals
 while growing as a developer.     
 </p>  
-
 </ReactBootStrap.Col>
+
+
+
 </ReactBootStrap.Row>
 
 
@@ -52,7 +51,7 @@ while growing as a developer.
 <h2 className="reach">Feel free<br/> to reach me.</h2>
 </ReactBootStrap.Col>
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col className="iconsandtextrow">
 
 
 <a href='mailto:okaforekeneandre@gmail.com' target= "blank">
@@ -84,7 +83,7 @@ while growing as a developer.
 
 
 
-<diV style={{backgroundColor:"white", height:80, marginTop:26}}>
+<diV className="bottomdiv">
 <Layout>
 
 <ReactBootStrap.Row>

@@ -11,14 +11,14 @@ export default function Navigation() {
 
     
 
-<ReactBootStrap.Navbar  expand="lg" fixed="top" style={{borderBottomColor:'white'}} >
+<ReactBootStrap.Navbar variant="dark"  expand="lg" fixed="top" style={{borderBottomColor:'white'}} >
 
 <Layout>
 <LinkContainer to="/">
     <ReactBootStrap.Navbar.Brand  href="#home"><p className="navname">okafor ekene andre.</p></ReactBootStrap.Navbar.Brand>
 </LinkContainer>
 
-< ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
+< ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav"  />
 
    
    <ReactBootStrap.Navbar.Collapse className="justify-content-end">

@@ -46,7 +46,7 @@
   font-style: normal;
   color:white;
   padding-top: 25px;
-  font-size: 23px;
+  font-size: 20px;
 }
 .linkicon{
   color:white;
@@ -116,6 +116,7 @@
 }
 .projectrow{
   padding-top: 160px;
+  margin-bottom: 100px;
 }
 .endtitle{
   font-family: acumin-pro, sans-serif;
@@ -253,7 +254,8 @@
   font-weight: 700;
   font-style: normal;
   color: white; 
-  font-size: 24px;  
+  font-size: 24px; 
+  padding-top: 60px; 
 }
 .reach{
   font-family: acumin-pro, sans-serif;
@@ -280,312 +282,31 @@
   padding-top: 50px;
   padding-bottom: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/*.bigimage{
-
-  position: absolute;
-  height:1248px;
-  width: 1523px;
- 
-
+.homepagediv{
+  background-color: black;
+  height: 1800px;
+  padding-top: 60px;
 }
 
-
-.firsttext{
-
-  color: black;
-  position:relative;
-  padding-top: 90px;
-  font-family: 'Montserrat', sans-serif;
+.bottomdiv{
+  background-color: white;
+  height:80px;
+  margin-top: 26px;
 }
-
-
-.firsttopicon{
-  font-size: x-large;
-  color:aliceblue;
-  margin-left: 930px;  
-
+.projectpagediv{
+  background-color: black;
+  height:1600px;
+  padding-top: 60px;
 }
-
-
-
-
-.topicons{
-  font-size: x-large;
-  color:aliceblue;
-  margin-left: 25px;
+.certpagediv{
+  background-color: black;
+  height:1070px;
+  padding-top: 60px;
 }
-
-
-
-.firsttext{
-text-align: right ;
-}
-
-.intro{
-
-  font-family: 'Montserrat', sans-serif;
-  font-size: 64px;
-  color:black;
-  padding-top: 5px;
-}
-
-.nextintro{
-
-  color: yellow;
-  font-size: 17.5px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.awslogo{
-  font-size: 35px;
-  color: aliceblue;
-  position: relative;
-}
-.awstext{
-  color: black;
-  margin-left: 9px; 
-  position: relative;
-  padding-top: 3px;
-  font-family: 'Montserrat', sans-serif;
-}
-.awsrow{
-  margin-top: 220px;
-}
-
-.nextimage{
-  height:650px;
-  width:1523px;
-  position: absolute;
-  margin-top: 21px;
-  
-}
-
-.tooltext{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 87px;
-  position: relative;
-  color:yellow;
-  margin-top: 120px;
-}
-
-.textminor{
-  position: relative;
-  font-size: 16.5px;
-  color:white;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.iconrow{
-  position: relative;
-  margin-top: 120px;
-}
-
-.protext{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 90px;
-  position: relative;
-  color:yellow;
-  margin-top: 220px;
-  
-
-}
-.proimage{
-position:absolute;
-height:850px;
-width:1523px;
-margin-top: 50px;
-
-}
-.carousel{
-  width:650px;
-  height:350px;
-  margin-top:120px;
-  margin-bottom: 50px;
-
-}
-.prominor{
-  position: relative;
-  font-size: 14px;
-  color:black;
-  font-family: 'Inter', sans-serif;
-  
-}
-
-.bottomimage{
-
-  position: absolute ;
-  width:1523px;
-  height:300px;
-  margin-top: 120px;
-}
-
-.bottomtitle{
-
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  margin-top: 190px;
-  color:white;
-  font-size: 25px;
-}
-
-
-.bottomtexts{
-  color:white;
-  margin-top: 10px;
-}
-
-.bottomlinkone{
-  color:aliceblue;
-  align-content: space-between;
-  margin-left: 12px;
-  margin-right: 80px;
-}
-
-.bottomlinktwo{
-  color:aliceblue;
-  
-
-}
-.projectpageheader{
-  font-size: 100px;
-  font-family: 'Bebas Neue', cursive;
-  margin-top: 120px;
-  color:yellow;
-
-}
-
-.projectpagetitle{
-  margin-top: 180px;
-  color:black;
-  font-size: 16px;
-  font-family: 'Inter', sans-serif;
-}
-
-.videoimage{
-
-    object-fit: "contain";
-    height:650px;
-    width:600px;
-}
-
-.firstrow{
-  margin-top:1px;
-}
-
-.projectdef{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 70px;  
-  margin-top: 160px;
-}
-.projectinfo{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 23px; 
-}
-.secondrow{
-  margin-top: 0px;
-}
-.buttonslink{
-  margin-left: 12px;
-}
-.certimg{
-  width:550px;
-  height:600px;
-}
-.certinfo{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 60px;
-}
-
-.certone{
-  margin-top: 180px;
-}
-.certtwo{
-  margin-top: 180px; 
-}
-
-.certimgtwo{
-  width:550px;
-  margin-top: 80px;
-  
-}
-.certinfotwo{
-  margin-top: 80px;
-}
-.contacttitle{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 90px;
-  padding-top: 120px;
-  position: relative;
-  color: black;
-}
-
-.contactabout{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 60px;
-  margin-top: 70px;
-}
-
-.iconfirst{
-  font-size: 27px;
-  margin-right:20px;
-  margin-top: 10px;
-  
-}
-.iconsecond{
-  font-size: 27px;
-  margin-right:20px;
-  margin-left: 2px;
-  margin-top: 10px;
-}
-.projectimage{
-  width:1523px;
-  height:2550px;
-  position:absolute;
-}
-.certlarge{
-  width:1523px;
-  height:1500px;
-  position:absolute;
-}
-.textin{
-  color: aliceblue;
-}
-.finalimage{
-  position: absolute;
-  height:1020px;
-  width:1523px;
-}
-.contactinfo{
-  position: relative;
-  font-family: 'Inter', sans-serif;
-
-}
-.linktext{
-  margin-top: 600px;
-}
-.resume{
-  color: yellowgreen;
-}
-.og{
-  color:black;
-}
-.resumetwo{
-  color: white;
+.contactpagediv{
+  background-color: black;
+  height:1010px;
+  padding-top: 60px;
 }
 
 
@@ -601,199 +322,117 @@ margin-top: 50px;
 
 
 
+@media only screen 
+and (min-width:320px)
+and (max-width:480px) {
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:734px) {
-  
-  .bigimage{
-    height: 850px;
-    width:414px;
+  .navname{
+    font-size: 22px;
+    padding-top: 8px;
   }
-
-
-  .firsttext{
-    font-size: 12px;
-    text-align: left;
-  }
-
-  .firsttopicon{
-    font-size: 15px;
-    color:aliceblue;
-    margin-left: 9px;  
-  
-  }
-  .topicons{
-    font-size: 15px;
-    color:aliceblue;
-    margin-left: 25px;
-  }
-  .intro{
-
-    font-family: Newsreader;
-    font-size: 45px;
-    color:aliceblue;
-    padding-top: 72px;
+  .bigintro{
+    font-size: 46px;
+    padding-top: 50px;
   }
   .nextintro{
-
-    color: aliceblue;
-    font-size: 10px;
-    margin-top: 120px;
+    font-size: 19px;
+    padding-top: 76px;
   }
-  .awsrow{
-    margin-top: 27px;
+  .linkicon{
+    font-size: 21px;
+    margin: 20px;
+      
   }
-  
   .awslogo{
-    margin-left: 30px;
-    align-self: center;
-    font-size: 26px;
-  }
+    font-size: 30px;
+    margin-left: 15px;
+    }
   .awstext{
-    text-align: center;
-    font-size: 13px;
-    margin-top: 7px;
-  }
-  .nextimage{
-    margin-top: 10px;
-    width:414px;
-    height: 890px;
-  }
-  .tooltext{
-    font-size: 59px;
-    margin-top: 70px;
-  }
-  .toolminor{
     font-size: 15px;
   }
-  .iconrow{
-    margin-top: 5px;
+  .devrow{
+    padding-top: 110px;
   }
-  .icons{
-    font-size: 6px;
-    color:white;
+  .devsub{
+    font-size: 33px;
   }
-  .proimage{
-    margin-top: 150px;
-    width:414px;
+  .projectrow{
+    padding-top: 80px; 
   }
-.bottomimage{
-  width:384px;
-}
-.protext{
-  font-size: 59px; 
-}
+  .projectsub{
+    font-size: 38px;  
+  }
+  .carousel{
+    width:345px;
+    height:230px;
+    margin-top: 40px;
+  }
+  .homepagediv{
+    height:2100px;
+  }
+  .endtitle{
+    font-size: 15px;
+  }
+  .endicon{
+    font-size: 12px;
+    margin: 5px;
+    margin-top: 29px;
+  }
+  .endsub{
+    font-size: 9px;
+  }
+  .bottomdiv{
+    margin-top: 60px;
+  }
+  .videos{
+    width:350px;
+  }
+  .projectname{
+    padding-top: 4px;
+  }
+  .projectpagediv{
+    height:2800px;
+  }
+  .certimage{
+    padding-top: 60px;
+  }
+ .certname{
+   font-size: 27px;
+ }
+ .certpagediv{
+   height:930px;
+ }
+ .aboutmetitle{
+   font-size: 45px;
+ }
+ .aboutmeinfo{
+   font-size: 20px;
+   padding-top: 130px;
+   
+ }
+ .contactpagediv{
+   height: 1478px;
+ }
+ .reach{
+  font-size: 43px;  
+ }
+ .contacticon{
+   margin-left: 16px;
+ }
+ .iconsandtextrow{
+   padding-top: 30px;
+ }
+ .devhead{
+   font-size: 20px;
+ }
+ .projecthead{
+  font-size: 20px; 
+ }
+ .projectsub{
+  font-size: 36px;
+ }
 
-.prominor{
-  font-size: 14px;
-}
-
-.carousel{
-  width:345px;
-  height:200px;
-  margin-top: 30px;
-}
-.bottomimage{
-  width:480px;
-  height:200px;
-  margin-top:200px;;
-}
-.bottomtitle{
-  font-size: 16px;
-  margin-top: 220px;
-}
-.bottomtexts{
-  font-size: 12px;
-}
-.certifiedimage{
-  height:500px;
-  position: absolute;
-
-}
-.projectpageheader{
-  font-size: 60px;
-  margin-right: 20px;
-}
-.projectimage{
-  width:480px;
-  height: 2600px;
-}
-.projectpagetitle{
-  color:aliceblue;
-  font-size: 14px;
-  margin-top: 30px;
-  
-
-}
-.videoimage{
-  width:347px;
-  height:200px;
-  margin-top: 49px;
-}
-.projectdef{
-  font-size: 45px;
-  margin-top: 17px;
-}
-.projectinfo{
-  font-size: 22px;
-}
-.certlarge{
-  width:480px;
-  height:1419px;
-}
-.certone{
-  margin-top: 83px;
-}
-.certinfo{
-  font-size: 45px;
-  margin-top: 50px;
-
-}
-.certinfotwo{
-  margin-top: 20px;;
-}
-.finalimage{
-  width: 480px;
-  height:1035px;
-}
-.contactabout{
-  margin-top: 50px;
-  font-size: 40px;
-}
-.secondicon{
-  margin-left:90px;
-}
-.contacttitle{
-  font-size: 60px;
-}
-.contactinfo{
-  font-size: 14px;
-}
-.textin{
-  font-size: 14px;
-}
-.navname{
-  font-size: 15px;;
-}
 }
 
 
@@ -805,43 +444,99 @@ margin-top: 50px;
 
 
 
-@media only screen and (max-width:1068px) {
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 768px) 
+  {
 
-.bigimage{
-  height:1000px;
-}
-.nextimage{
-  margin-top: 50px;
-}
-.firsttext{
-  text-align: end;
-}
-.firsttopicon{
-  margin-left: 12px;
-}
-.nextintro{
-  font-size: 21px;
-  margin-top: 180px;
-}
-.intro{
-  margin-top: 59px;
-}
+    .carousel{
+      width:510px;
+      padding-top: 40px;
+    }
+    .homepagediv{
+      height:2620px;
+    }
+    .awslogo{
+      margin-left: 17px;
+    }
+    .videos{
+      width:510px;
+    }
+    .projectpagediv{
+      height:2600px;
+    }
+    .certpagediv{
+    height:940px;  
+    }
+    .contactpagediv{
+      height:1356px;
+    }
+    .certimage{
+      padding-top: 65px;
+    }
 
-.awsrow{
-  margin-top: 50px;
-}
-.awslogo{
-  margin-left: 20px;
-}
-
-}
-@media only screen and (max-height:1024px), only screen and (max-width:768px){
-.nextimage{
-  height: 980px;
-  
-}
+  }
 
 
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  {
+.contactpagediv{
+  height:1100px;
+}
+.homepagediv{
+  height:2400px;
 }
 
-*/}
+}
+
+
+
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1280px) 
+{
+
+.projectsub{
+  font-size: 37px;
+}
+.homepagediv{
+  height:1820px;
+}
+.projectpagediv{
+  height:1810px;
+}
+.certpagediv{
+  height:958px;
+}
+.devsub{
+  font-size: 37px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
