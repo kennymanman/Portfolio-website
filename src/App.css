@@ -395,11 +395,11 @@ and (max-width:480px) {
     height:2800px;
   }
   .certimage{
-    padding-top: 60px;
+    padding-top: 62px;
     height: 150px;
   }
  .certname{
-   font-size: 27px;
+   font-size: 24px;
  }
  .certpagediv{
    height:930px;
@@ -408,7 +408,7 @@ and (max-width:480px) {
    font-size: 42px;
  }
  .aboutmeinfo{
-   font-size: 20px;
+   font-size: 18px;
    padding-top: 130px;
    
  }
@@ -416,7 +416,7 @@ and (max-width:480px) {
    height: 1478px;
  }
  .reach{
-  font-size: 40px;  
+  font-size: 43px;  
  }
  .contacticon{
    margin-left: 16px;
