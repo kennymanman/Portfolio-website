@@ -336,7 +336,7 @@ and (max-width:480px) {
     padding-top: 50px;
   }
   .nextintro{
-    font-size: 19px;
+    font-size: 17px;
     padding-top: 76px;
   }
   .linkicon{
@@ -396,6 +396,7 @@ and (max-width:480px) {
   }
   .certimage{
     padding-top: 60px;
+    height: 150px;
   }
  .certname{
    font-size: 27px;
@@ -404,7 +405,7 @@ and (max-width:480px) {
    height:930px;
  }
  .aboutmetitle{
-   font-size: 45px;
+   font-size: 42px;
  }
  .aboutmeinfo{
    font-size: 20px;
@@ -415,7 +416,7 @@ and (max-width:480px) {
    height: 1478px;
  }
  .reach{
-  font-size: 43px;  
+  font-size: 40px;  
  }
  .contacticon{
    margin-left: 16px;
