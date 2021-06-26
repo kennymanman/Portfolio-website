@@ -31,8 +31,8 @@ export default function Navigation() {
     </LinkContainer>
 
 
-    <LinkContainer to="/About">
-      <ReactBootStrap.Nav.Link href="/About"><p className="navcert">certifications</p></ReactBootStrap.Nav.Link>
+    <LinkContainer to="/Cert">
+      <ReactBootStrap.Nav.Link href="/Cert"><p className="navcert">certifications</p></ReactBootStrap.Nav.Link>
     </LinkContainer>
 
 

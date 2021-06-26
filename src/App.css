@@ -12,7 +12,7 @@
   font-weight: 200;
   font-style: normal;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .navcert{
@@ -20,7 +20,7 @@
   font-weight: 400;
   font-style: normal;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
 
 }
 
@@ -29,7 +29,7 @@
   font-weight: 300;
   font-style: normal;
   color: white;
-  font-size: 18px; 
+  font-size: 17px; 
 }
 
 .bigintro{
@@ -42,7 +42,7 @@
 }
 .nextintro{
   font-family: acumin-pro, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   color:white;
   padding-top: 25px;
@@ -167,7 +167,7 @@
   font-weight: 700;
   font-style: normal;
   color: white; 
-  padding-top: 19px; 
+  padding-top: 60px; 
 }
 .projectstack{
   font-family: acumin-pro, sans-serif;
@@ -188,7 +188,98 @@
 .button{
   margin:7px;
 }
+.certtitle{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;  
+  font-size: 50px;
+  padding-top: 50px; 
+}
 
+.certtitlesub{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;  
+  font-size: 19px; 
+  padding-top: 20px;  
+}
+.certimage{
+  width:600px;
+  height:350px;
+  padding-top: 20px;  
+}
+.certname{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white; 
+  padding-top: 60px;   
+}
+.linkicon{
+  color: white;
+  font-size: 28px;
+}
+.contacttitle{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;  
+  font-size: 50px;
+  padding-top: 50px;   
+}
+
+.contacttitlesub{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;  
+  font-size: 19px; 
+  padding-top: 20px;   
+}
+
+.aboutmetitle{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white; 
+  font-size: 50px;
+  padding-top: 20px;
+   
+}
+.aboutmeinfo{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white; 
+  font-size: 24px;  
+}
+.reach{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white; 
+  font-size: 47px; 
+  
+}
+.contacticon{
+  color: white;
+  font-size: 22px;
+  margin-top: 8px;
+}
+.icontext{
+  color: white;
+  font-size: 15px;
+  margin:9px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.contactrow{
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
 
 
 
