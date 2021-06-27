@@ -369,7 +369,7 @@ and (max-width:480px) {
     margin-top: 40px;
   }
   .homepagediv{
-    height:2080px;
+    height:2070px;
   }
   .endtitle{
     font-size: 15px;
@@ -393,7 +393,7 @@ and (max-width:480px) {
     padding-top: 4px;
   }
   .projectpagediv{
-    height:2780px;
+    height:2770px;
   }
   .certimage{
     padding-top: 62px;
@@ -417,7 +417,7 @@ and (max-width:480px) {
    height: 1450px;
  }
  .reach{
-  font-size: 48px;  
+  font-size: 50px;  
  }
  .contacticon{
    margin-left: 16px;
