@@ -262,7 +262,7 @@
   font-weight: 700;
   font-style: normal;
   color: white; 
-  font-size: 47px; 
+  font-size: 48px; 
   
 }
 .contacticon{
@@ -290,7 +290,7 @@
 
 .bottomdiv{
   background-color: white;
-  height:80px;
+  height:100px;
   margin-top: 26px;
 }
 .projectpagediv{
@@ -413,7 +413,7 @@ and (max-width:480px) {
    
  }
  .contactpagediv{
-   height: 1478px;
+   height: 1450px;
  }
  .reach{
   font-size: 43px;  
