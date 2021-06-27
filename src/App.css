@@ -384,6 +384,7 @@ and (max-width:480px) {
   }
   .bottomdiv{
     margin-top: 60px;
+    height:100px;
   }
   .videos{
     width:350px;
@@ -416,7 +417,7 @@ and (max-width:480px) {
    height: 1450px;
  }
  .reach{
-  font-size: 43px;  
+  font-size: 46px;  
  }
  .contacticon{
    margin-left: 16px;
