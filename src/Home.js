@@ -28,7 +28,7 @@ return (
 </h2>
 
 <h3 className="nextintro">
-    Hi my name is Okafor Ekene Andre, i'm a frontend developer & AWS Certified
+    Hi my name is Okafor Ekene Andre, i'm a frontend developer & AWS certified
     solutions architect.<br/>
     A software developer with a passion for UI/UX designs.
 </h3>
