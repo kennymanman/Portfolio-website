@@ -128,7 +128,7 @@ className="videos"
 
 <ReactBootStrap.Col>
   <h2 className="projectname">Ecommerce grocery app</h2> 
-  <h4 className="projectstack">Development Stack: React Native, React Navigation, Expo, JavaScript, React native icons</h4> 
+  <h4 className="projectstack">Development Stack: React Native, React-Context, React Navigation, Expo, JavaScript, React native icons</h4> 
   <p className="projectinfo">Developed this project to aid the agricultural sector through technological innovation.
   The app connects grocery store owners to customers in the area.</p>
 

@@ -5,6 +5,8 @@ import { AiFillMail } from "react-icons/ai";
 import * as ReactBootStrap from "react-bootstrap"
 import xash from "./Images/xash.PNG"
 import zash from "./Images/zash.PNG"
+import latestone from "./Images/latestone.JPG"
+import latesttwo from "./Images/latesttwo.JPG"
 import pipe from "./Images/pipe.png"
 import Layout from "./Layout";
 import { SiReact,SiJavascript,SiHtml5,SiCss3,SiBootstrap,SiMaterialUi,SiAmazonaws,SiExpo,SiNetlify,SiGithub,SiNpm,SiVisualstudio } from "react-icons/si";
@@ -106,7 +108,7 @@ for developing my projects.</h1>
 <ReactBootStrap.Carousel  fade>
 <ReactBootStrap.Carousel.Item >
 <img
-  src={zash}
+  src={latesttwo}
   alt="First slide"
   className="carousel"
   />
@@ -117,7 +119,7 @@ for developing my projects.</h1>
 
 <ReactBootStrap.Carousel.Item >
 <img
-  src={xash}
+  src={latestone}
   alt="Second slide"
   className="carousel"
 />
