@@ -6,7 +6,9 @@ import { AiFillMail } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlineGithub } from "react-icons/ai";
 import { GrLinkedin } from "react-icons/gr";
-import pold from "./Video/pold.mp4"
+import jold from "./Video/jold.mp4"
+import xold from "./Video/xold.mp4"
+import lold from "./Video/lold.mp4"
 
 
 
@@ -38,7 +40,7 @@ developed projects built with creativity and love.
 <video  autoPlay loop
 className="videos"
 >                                                                                        
-<source  src={pold} type="video/mp4"/>
+<source  src={xold} type="video/mp4"/>
 </video>
 </ReactBootStrap.Col>
 
@@ -77,7 +79,7 @@ View Code
 <video  autoPlay loop
 className="videos"
 >                                                                                       
-<source  src={pold} type="video/mp4"/>
+<source  src={jold} type="video/mp4"/>
 </video>
 </ReactBootStrap.Col>
 
@@ -122,7 +124,7 @@ View Code
 <video  autoPlay loop
 className="videos"
 >                                                                                        
-<source  src={pold} type="video/mp4"/>
+<source  src={lold} type="video/mp4"/>
 </video>
 </ReactBootStrap.Col>
 
