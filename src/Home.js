@@ -3,6 +3,7 @@ import { GrLinkedin } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import * as ReactBootStrap from "react-bootstrap"
+import {LinkContainer} from 'react-router-bootstrap'
 import xash from "./Images/xash.PNG"
 import zash from "./Images/zash.PNG"
 import latestone from "./Images/latestone.JPG"
@@ -19,7 +20,7 @@ return (
 
 <div className="homepagediv">
 
-<hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
+
 
 <Layout>
 
@@ -98,10 +99,13 @@ for developing my projects.</h1>
 
 <h4 className="projecthead">Latest Projects</h4>
 
+<LinkContainer to="/Projects">
 <h2 className="projectsub">Here are some of<br/>
  my latest projects.<br/>
   Feel free to contact<br/>
    me for your next project.</h2>
+   </LinkContainer>
+   
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>

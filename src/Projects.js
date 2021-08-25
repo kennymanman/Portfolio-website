@@ -21,7 +21,7 @@ export default function Projects() {
 
 <div className="projectpagediv">
 
-<hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
+
 
 <Layout>
 <h2 className="projecttitle">Latest Projects</h2>

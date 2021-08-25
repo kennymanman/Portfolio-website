@@ -123,17 +123,18 @@
   font-weight: 700;
   font-style: normal;
   padding-top: 25px;
-  color: black;
+  color: white;
   font-size: 25px;
 }
 .endicon{
-  color:black;
+  color:white;
   font-size: 17px;
   margin:10px;
   margin-top: 30px;
 }
 .endsub{
   font-size: 13px;
+  color:white;
 }
 .love{
   font-family: acumin-pro, sans-serif;
@@ -141,6 +142,7 @@
   font-style: normal;
   font-size: 15px;
   padding-top: 30px;
+  color: white;
 }
 .projecttitle{
   font-family: acumin-pro, sans-serif;
@@ -289,7 +291,7 @@
 }
 
 .bottomdiv{
-  background-color: white;
+  background-color: black;
   height:120px;
   margin-top: 26px;
 }

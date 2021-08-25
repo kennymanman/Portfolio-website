@@ -11,7 +11,7 @@ export default function Navigation() {
 
     
 
-<ReactBootStrap.Navbar variant="dark"  expand="lg" fixed="top" style={{borderBottomColor:'white'}} >
+<ReactBootStrap.Navbar variant="dark" bg="dark"   expand="lg"   >
 
 <Layout>
 <LinkContainer to="/">
@@ -21,7 +21,7 @@ export default function Navigation() {
 < ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav"  />
 
    
-   <ReactBootStrap.Navbar.Collapse className="justify-content-end">
+   <ReactBootStrap.Navbar.Collapse  className="justify-content-end">
 
 
 

@@ -18,7 +18,7 @@ return (
 
 <div className="certpagediv">
 
-<hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
+{/*<hr style={{ borderColor:"white", backgroundColor:"white", height:3}} /> */}
 
 
 <Layout>

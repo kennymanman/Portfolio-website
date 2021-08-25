@@ -11,7 +11,7 @@ export default function Contact() {
         
 <div className="contactpagediv">
 
-<hr style={{ borderColor:"white", backgroundColor:"white", height:3}} />
+{/*<hr style={{ borderColor:"white", backgroundColor:"white", height:3}} /> */}
 
 
 <Layout>
