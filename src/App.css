@@ -505,7 +505,7 @@ and (max-width:480px) {
   height:1100px;
 }
 .homepagediv{
-  height:2400px;
+  
 }
 
 }
@@ -521,7 +521,7 @@ and (max-device-width: 1280px)
   font-size: 37px;
 }
 .homepagediv{
-  height:1820px;
+  
 }
 .projectpagediv{
   height:1810px;
