@@ -11,7 +11,7 @@ export default function Navigation() {
 
     
 
-<ReactBootStrap.Navbar variant="dark" bg="light"   expand="lg"   >
+<ReactBootStrap.Navbar variant="light" bg="light"   expand="lg"   >
 
 <Layout>
 <LinkContainer to="/">
