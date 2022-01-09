@@ -9,9 +9,8 @@ Live site: www.okaforekeneandre.com
 
     
 ## Screenshots
+![port](https://user-images.githubusercontent.com/61712644/148691547-e8f5c1d6-189d-4f76-80b0-6e9c1d28f7b3.PNG)
 
-![App Screen![port](https://user-images.githubusercontent.com/61712644/148691514-ba1fcba0-c84d-4833-a93d-f89611b8c0c0.PNG)
-shot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
   
 ## Run Locally
