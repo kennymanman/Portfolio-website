@@ -6,6 +6,8 @@ import * as ReactBootStrap from "react-bootstrap"
 import {LinkContainer} from 'react-router-bootstrap'
 import xash from "./Images/xash.PNG"
 import zash from "./Images/zash.PNG"
+import port from "./Images/port.PNG"
+import gar from "./Images/gar.PNG"
 import latestone from "./Images/latestone.JPG"
 import latesttwo from "./Images/latesttwo.JPG"
 import pipe from "./Images/pipe.png"
@@ -16,8 +18,8 @@ import { SiReact,SiJavascript,SiHtml5,SiCss3,SiBootstrap,SiMaterialUi,SiAmazonaw
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlineGithub } from "react-icons/ai";
 
-import jold from "./Video/jold.mp4"
-import xold from "./Video/xold.mp4"
+import fruit from "./Video/fruit.mp4"
+import portfo from "./Video/portfo.mp4"
 import lold from "./Video/lold.mp4"
 import { BsLink45Deg } from "react-icons/bs";
 import awge from "./Images/awge.PNG"
@@ -42,7 +44,7 @@ return (
 </h2>
 
 <h3 className="nextintro">
-    Hi my name is Okafor Ekene Andre, i'm a frontend developer & AWS certified
+    Hey, my name is Okafor Ekene Andre, i'm a frontend developer & AWS certified
     solutions architect.<br/>
     A software developer with a passion for UI/UX designs.
 </h3>
@@ -123,7 +125,7 @@ for developing my projects.</h1>
 <ReactBootStrap.Carousel  fade>
 <ReactBootStrap.Carousel.Item >
 <img
-  src={latesttwo}
+  src={port}
   alt="First slide"
   className="carousel"
   />
@@ -134,7 +136,7 @@ for developing my projects.</h1>
 
 <ReactBootStrap.Carousel.Item >
 <img
-  src={latestone}
+  src={gar}
   alt="Second slide"
   className="carousel"
 />
@@ -183,7 +185,7 @@ developed projects built with creativity and love.
 <video  autoPlay loop
 className="videos"
 >                                                                                        
-<source  src={xold} type="video/mp4"/>
+<source  src={fruit} type="video/mp4"/>
 </video>
 </ReactBootStrap.Col>
 
@@ -193,7 +195,7 @@ className="videos"
   <p className="projectinfo">Designed and built an e-commerce app landing website with a unique design using React Js.
   Aim of this project was to create a website for users to connect to a download link to the ecommerce app.</p>
 
-  <a href="https://www.gardenstoreapp.com" target= "blank">
+  <a href="https://www.gardengrocerystore.com" target= "blank">
 <ReactBootStrap.Button className="button" size={"sm"} variant="light" >
 View Site
 <CgWebsite />
@@ -201,7 +203,7 @@ View Site
 </a>
 
 
-<a href="https://github.com/kennymanman/Grocery-app-landing-page" target="blank">
+<a href="https://github.com/kennymanman/landingpage" target="blank">
 <ReactBootStrap.Button size={"sm"} className="button" variant="light">                                   
 View Code
 <AiOutlineGithub/>
@@ -222,17 +224,17 @@ View Code
 <video  autoPlay loop
 className="videos"
 >                                                                                       
-<source  src={jold} type="video/mp4"/>
+<source  src={portfo} type="video/mp4"/>
 </video>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
-  <h2 className="projectname">Ecommerce vendor website</h2> 
+  <h2 className="projectname">My portfolio website</h2> 
   <h4 className="projectstack">Development Stack: React Js, React-Router, React-Bootstrap, Javascript, HTML, CSS, Netlify</h4> 
-  <p className="projectinfo"> Built this project as a way for product vendors to sell their products and get real-time 
-  analytics of their product sales. This project is still in development.</p>
+  <p className="projectinfo"> Built this project as a way to display all my latest and upcoming projects so that individuals and companies can 
+  access them for their own personal review.</p>
 
-  <a href="https://www.gardenstorevendor.com" target= "blank">
+  <a href="https://okaforekeneandre.netlify.app" target= "blank">
 <ReactBootStrap.Button className="button" size={"sm"} variant="light" >
 View Site
 <CgWebsite />
@@ -240,7 +242,7 @@ View Site
 </a>
 
 
-<a href="https://github.com/kennymanman/Grocery-app-vendor-page" target="blank">
+<a href="https://github.com/kennymanman/Portfolio-website" target="blank">
 <ReactBootStrap.Button size={"sm"} className="button" variant="light">                               
 View Code
 <AiOutlineGithub/>
@@ -275,12 +277,12 @@ className="videos"
   <h2 className="projectname">Ecommerce grocery app</h2> 
   <h4 className="projectstack">Development Stack: React Native, React-Context, React Navigation, Expo, JavaScript, React native icons</h4> 
   <p className="projectinfo">Developed this project to aid the agricultural sector through technological innovation.
-  The app connects grocery store owners to customers in the area.</p>
+  The app connects customers to grocery products.</p>
 
  
 
 
-<a href="https://github.com/kennymanman/Grocer-app" target="blank">
+<a href="https://github.com/kennymanman/garden-app" target="blank">
 <ReactBootStrap.Button size={"sm"} className="button" variant="light">                                   
 View Code
 <AiOutlineGithub/>
@@ -431,7 +433,7 @@ while growing as a developer.
 
 <ReactBootStrap.Col  xs={5}>
 <h2 className="endtitle">okafor ekene andre.</h2>
-<p className="endsub">© 2021 Okafor Ekene Andre . All Rights Reserved.</p>
+<p className="endsub">© 2022 Okafor Ekene Andre . All Rights Reserved.</p>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>

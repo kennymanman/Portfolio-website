@@ -29,3 +29,45 @@ code {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+
+@font-face {
+  font-family: "NeueHaasDisplayBlack";
+  src: local("NeueHaasDisplayBlack"),
+    url("./fonts/NeueHaasDisplayBlack.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: "NeueHaasDisplayBoldItalic";
+  src: local("NeueHaasDisplayBoldItalic"),
+    url("./fonts/NeueHaasDisplayBoldItalic.ttf") format("truetype");
+    
+}
+
+
+
+@font-face {
+  font-family: "NeueHaasDisplayMedium";
+  src: local("NeueHaasDisplayMedium"),
+    url("./fonts/NeueHaasDisplayMedium.ttf") format("truetype");
+    
+}
+
+@font-face {
+  font-family: "NeueHaasDisplayRoman";
+  src: local("NeueHaasDisplayRoman"),
+    url("./fonts/NeueHaasDisplayRoman.ttf") format("truetype");
+    
+}
+
+
+@font-face {
+  font-family: "NeueHaasDisplayBold";
+  src: local("NeueHaasDisplayBold"),
+    url("./fonts/NeueHaasDisplayBold.ttf") format("truetype");
+    
+}

@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./fonts/NeueHaasDisplayBlack.ttf"
+import "./fonts/NeueHaasDisplayBoldItalic.ttf"
+import "./fonts/NeueHaasDisplayMedium.ttf"
+import "./fonts/NeueHaasDisplayRoman.ttf"
+import "./fonts/NeueHaasDisplayBold.ttf"
 
 ReactDOM.render(
   <React.StrictMode>

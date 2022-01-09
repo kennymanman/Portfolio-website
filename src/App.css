@@ -1,14 +1,13 @@
 
 
 .navname{
-  font-family: acumin-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: NeueHaasDisplayBlack;
+ 
   font-size: 26px;
   color: black;
 }
 .navprojects{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 200;
   font-style: normal;
   color: black;
@@ -16,7 +15,7 @@
 }
 
 .navcert{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -25,7 +24,7 @@
 }
 
 .navcontact{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 300;
   font-style: normal;
   color: black;
@@ -33,15 +32,13 @@
 }
 
 .bigintro{
-  font-family: acumin-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: NeueHaasDisplayBoldItalic;
   color:white;
   font-size: 75px;
-  padding-top: 112px;
+  padding-top: 110px;
 }
 .nextintro{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   color:white;
@@ -62,7 +59,7 @@
 .awstext{
   color:white;
   margin-top: 90px;
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   margin-left: 11px;
@@ -72,7 +69,7 @@
 
 .devhead{
   color:white;
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   font-size: 25px;
@@ -82,7 +79,7 @@
 
 .devsub{
   color:white;
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   font-size: 50px; 
@@ -97,14 +94,14 @@
 }
 .projecthead{
   color:white;
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   font-size: 25px; 
 }
 .projectsub{
   color:white;
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   font-size: 50px;  
@@ -119,7 +116,7 @@
   margin-bottom: 100px;
 }
 .endtitle{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBlack;
   font-weight: 700;
   font-style: normal;
   padding-top: 25px;
@@ -135,9 +132,10 @@
 .endsub{
   font-size: 13px;
   color:black;
+  font-family: NeueHaasDisplayRoman;
 }
 .love{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayRoman;
   font-weight: 700;
   font-style: normal;
   font-size: 15px;
@@ -145,7 +143,7 @@
   color: black;
 }
 .projecttitle{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   color: white;  
@@ -154,7 +152,7 @@
 }
 
 .projecttitlesub{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   color: white;  
@@ -166,14 +164,14 @@
   height:400px;
 }
 .projectname{
-  font-family: acumin-pro, sans-serif;
+  font-family:NeueHaasDisplayBold ;
   font-weight: 700;
   font-style: normal;
   color: white; 
   padding-top: 60px; 
 }
 .projectstack{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   color: white;
@@ -181,7 +179,7 @@
   padding-top: 18px;
 }
 .projectinfo{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayRoman;
   font-weight: 400;
   font-style: normal;
   color: white;
@@ -192,7 +190,7 @@
   margin:7px;
 }
 .certtitle{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   color: white;  
@@ -201,7 +199,7 @@
 }
 
 .certtitlesub{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   color: white;  
@@ -214,7 +212,7 @@
   padding-top: 20px;  
 }
 .certname{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBold;
   font-weight: 700;
   font-style: normal;
   color: white; 
@@ -225,7 +223,7 @@
   font-size: 28px;
 }
 .contacttitle{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   color: white;  
@@ -234,7 +232,7 @@
 }
 
 .contacttitlesub{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   color: white;  
@@ -243,7 +241,7 @@
 }
 
 .aboutmetitle{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   color: white; 
@@ -252,7 +250,7 @@
    
 }
 .aboutmeinfo{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayBoldItalic;
   font-weight: 700;
   font-style: normal;
   color: white; 
@@ -260,7 +258,7 @@
   padding-top: 60px; 
 }
 .reach{
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
   color: white; 
@@ -276,7 +274,7 @@
   color: white;
   font-size: 15px;
   margin:9px;
-  font-family: acumin-pro, sans-serif;
+  font-family: NeueHaasDisplayMedium;
   font-weight: 700;
   font-style: normal;
 }
@@ -330,7 +328,7 @@ and (max-width:480px) {
 
 
   .navname{
-    font-size: 22px;
+    font-size: 21px;
     padding-top: 8px;
   }
   .bigintro{
