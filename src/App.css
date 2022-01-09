@@ -395,7 +395,7 @@ and (max-width:480px) {
   }
   .projectname{
     padding-top: 4px;
-    font-size: 20px;
+    font-size: 21px;
   }
   .projectpagediv{
     height:2770px;
@@ -422,7 +422,7 @@ and (max-width:480px) {
    height: 1450px;
  }
  .reach{
-  font-size: 44px;  
+  font-size: 42px;  
  }
  .contacticon{
    margin-left: 13px;
@@ -441,11 +441,11 @@ and (max-width:480px) {
  }
 
  .projecttitle{
-   font-size: 44px;
+   font-size: 43px;
  }
 
  .certtitle{
-   font-size: 44px;
+   font-size: 43px;
  }
 
 }
