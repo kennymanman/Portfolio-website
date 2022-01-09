@@ -441,11 +441,15 @@ and (max-width:480px) {
  }
 
  .projecttitle{
-   font-size: 43px;
+   font-size: 41px;
  }
 
  .certtitle{
    font-size: 43px;
+ }
+
+ .contacttitle{
+   font-size: 42px;
  }
 
 }
