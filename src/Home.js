@@ -13,6 +13,17 @@ import Layout from "./Layout";
 import { SiReact,SiJavascript,SiHtml5,SiCss3,SiBootstrap,SiMaterialUi,SiAmazonaws,SiExpo,SiNetlify,SiGithub,SiNpm,SiVisualstudio } from "react-icons/si";
 
 
+import { CgWebsite } from "react-icons/cg";
+import { AiOutlineGithub } from "react-icons/ai";
+
+import jold from "./Video/jold.mp4"
+import xold from "./Video/xold.mp4"
+import lold from "./Video/lold.mp4"
+import { BsLink45Deg } from "react-icons/bs";
+import awge from "./Images/awge.PNG"
+import awg from "./Images/awg.png"
+
+
 
 function Home() {
 return (
@@ -88,7 +99,7 @@ for developing my projects.</h1>
 </ReactBootStrap.Row>
 
 </Layout>
-<hr style={{color:"white", height:3, borderColor:"white", backgroundColor:"white", marginTop:70}}/>
+<hr style={{color:"white", height:3, borderColor:"white", backgroundColor:"white", marginTop:140}}/>
 
 
 
@@ -150,7 +161,265 @@ for developing my projects.</h1>
 
 </ReactBootStrap.Row>
 
+
+
+
+
+
+
+<h2 id="seeprojects" className="projecttitle">Latest Projects</h2>
+
+<h5 className="projecttitlesub">
+developed projects built with creativity and love.
+</h5>
+
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2}} />
+
+
+<ReactBootStrap.Row>
+
+<ReactBootStrap.Col>
+<video  autoPlay loop
+className="videos"
+>                                                                                        
+<source  src={xold} type="video/mp4"/>
+</video>
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+  <h2 className="projectname">Ecommerce app landing page</h2> 
+  <h4 className="projectstack">Development Stack: React Js, React-Router, React-Bootstrap, Javascript, HTML, CSS, Netlify</h4> 
+  <p className="projectinfo">Designed and built an e-commerce app landing website with a unique design using React Js.
+  Aim of this project was to create a website for users to connect to a download link to the ecommerce app.</p>
+
+  <a href="https://www.gardenstoreapp.com" target= "blank">
+<ReactBootStrap.Button className="button" size={"sm"} variant="light" >
+View Site
+<CgWebsite />
+</ReactBootStrap.Button>
+</a>
+
+
+<a href="https://github.com/kennymanman/Grocery-app-landing-page" target="blank">
+<ReactBootStrap.Button size={"sm"} className="button" variant="light">                                   
+View Code
+<AiOutlineGithub/>
+</ReactBootStrap.Button>
+</a>
+
+
+</ReactBootStrap.Col>
+</ReactBootStrap.Row>
+
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2}} />
+
+
+<ReactBootStrap.Row>
+
+<ReactBootStrap.Col>
+<video  autoPlay loop
+className="videos"
+>                                                                                       
+<source  src={jold} type="video/mp4"/>
+</video>
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+  <h2 className="projectname">Ecommerce vendor website</h2> 
+  <h4 className="projectstack">Development Stack: React Js, React-Router, React-Bootstrap, Javascript, HTML, CSS, Netlify</h4> 
+  <p className="projectinfo"> Built this project as a way for product vendors to sell their products and get real-time 
+  analytics of their product sales. This project is still in development.</p>
+
+  <a href="https://www.gardenstorevendor.com" target= "blank">
+<ReactBootStrap.Button className="button" size={"sm"} variant="light" >
+View Site
+<CgWebsite />
+</ReactBootStrap.Button>
+</a>
+
+
+<a href="https://github.com/kennymanman/Grocery-app-vendor-page" target="blank">
+<ReactBootStrap.Button size={"sm"} className="button" variant="light">                               
+View Code
+<AiOutlineGithub/>
+</ReactBootStrap.Button>
+</a>
+
+
+</ReactBootStrap.Col>
+</ReactBootStrap.Row>
+
+
+
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2}} />
+
+
+
+
+
+
+<ReactBootStrap.Row>
+
+<ReactBootStrap.Col>
+<video  autoPlay loop
+className="videos"
+>                                                                                        
+<source  src={lold} type="video/mp4"/>
+</video>
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+  <h2 className="projectname">Ecommerce grocery app</h2> 
+  <h4 className="projectstack">Development Stack: React Native, React-Context, React Navigation, Expo, JavaScript, React native icons</h4> 
+  <p className="projectinfo">Developed this project to aid the agricultural sector through technological innovation.
+  The app connects grocery store owners to customers in the area.</p>
+
+ 
+
+
+<a href="https://github.com/kennymanman/Grocer-app" target="blank">
+<ReactBootStrap.Button size={"sm"} className="button" variant="light">                                   
+View Code
+<AiOutlineGithub/>
+</ReactBootStrap.Button>
+</a>
+
+
+</ReactBootStrap.Col>
+</ReactBootStrap.Row>
+
 </Layout>
+
+<hr style={{color:"white", height:3, borderColor:"white", backgroundColor:"white", marginTop:130}}/>
+
+<Layout>
+
+<h2 id="seecerts" className="certtitle">Certifications</h2>
+
+<h5 className="certtitlesub">couple of my achievements in the last few months. </h5>
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2}} />
+
+
+<ReactBootStrap.Row>
+
+<ReactBootStrap.Col>
+
+<ReactBootStrap.Image className="certimage" src={awge} fluid />
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+<h2 className="certname"> AWS solutions architect associate certificate</h2>
+<a href="https://www.credly.com/badges/c8b5a745-802b-453b-b019-4e3a45fd4d40? " target= "blank">
+<BsLink45Deg className="linkicon" />
+</a>
+</ReactBootStrap.Col>
+</ReactBootStrap.Row>
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2, marginTop:25}} />
+
+
+<ReactBootStrap.Row>
+
+<ReactBootStrap.Col>
+
+<ReactBootStrap.Image className="certimage" src={awg} fluid />
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+<h2 className="certname"> Blockchain technology certificate</h2>
+<a href="https://courses.edx.org/certificates/15dfd5dbb7c64977a4c583e97f924768" target= "blank">
+<BsLink45Deg className="linkicon" />
+</a>
+</ReactBootStrap.Col>
+</ReactBootStrap.Row>
+</Layout>
+
+
+<hr style={{color:"white", height:3, borderColor:"white", backgroundColor:"white", marginTop:130}}/>
+
+
+<Layout>
+
+<h2 id="seecontact" className="contacttitle">Contact</h2>
+
+<h5 className="contacttitlesub">Would love to hear from you.</h5>
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2}} />
+
+<ReactBootStrap.Row>
+<ReactBootStrap.Col >
+<h3 className="aboutmetitle">A little <br/> about me.</h3>
+
+<p className="aboutmeinfo">
+I am a self-taught frontend developer with certified knowledge in Amazon Web Services.
+I love to build impressive designs for websites & mobile apps.
+During my free time i enjoy listening to music and creating designs to implement into code.
+Currently i am learning backend frameworks as to become a full stack developer.
+I am open to opportunities that enable me to positively impact businesses and individuals
+while growing as a developer.     
+</p>  
+</ReactBootStrap.Col>
+
+
+
+</ReactBootStrap.Row>
+
+
+<hr style={{ borderColor:"white", backgroundColor:"white", height:2}} />
+
+
+<ReactBootStrap.Row className="contactrow">
+
+<ReactBootStrap.Col>
+
+<h2 className="reach">Feel free<br/> to reach me.</h2>
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col className="iconsandtextrow">
+
+
+<a href='mailto:okaforekeneandre@gmail.com' target= "blank">
+<ReactBootStrap.Row>
+<AiFillMail className="contacticon" /> <p className="icontext">Okaforekeneandre@gmail.com</p>
+</ReactBootStrap.Row>
+</a>
+
+
+<a href="https://www.linkedin.com/in/okafor-ekene-andre-805035193/" target= "blank">
+<ReactBootStrap.Row>
+<GrLinkedin className="contacticon" /> <p className="icontext">Okafor ekene andre</p>
+</ReactBootStrap.Row>
+</a>
+
+
+<a href="http://www.github.com/kennymanman" target= "blank">
+<ReactBootStrap.Row>
+< AiFillGithub className="contacticon" /> <p className="icontext">Okafor ekene andre</p>
+</ReactBootStrap.Row>
+</a>
+
+
+</ReactBootStrap.Col>
+
+</ReactBootStrap.Row>
+</Layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,7 +11,7 @@ export default function Navigation() {
 
     
 
-<ReactBootStrap.Navbar variant="dark" bg="dark"   expand="lg"   >
+<ReactBootStrap.Navbar variant="dark" bg="light"   expand="lg"   >
 
 <Layout>
 <LinkContainer to="/">
@@ -26,22 +26,18 @@ export default function Navigation() {
 
 
 
-   <LinkContainer to="/Projects">
-      <ReactBootStrap.Nav.Link style={{}} href="/Projects"><p className="navprojects">projects</p></ReactBootStrap.Nav.Link>
-    </LinkContainer>
+   
+      <ReactBootStrap.Nav.Link style={{}} href="#seeprojects"><p className="navprojects">projects</p></ReactBootStrap.Nav.Link>
+    
 
 
-    <LinkContainer to="/Cert">
-      <ReactBootStrap.Nav.Link href="/Cert"><p className="navcert">certifications</p></ReactBootStrap.Nav.Link>
-    </LinkContainer>
+    
+      <ReactBootStrap.Nav.Link href="#seecerts"><p className="navcert">certifications</p></ReactBootStrap.Nav.Link>
+    
 
 
-
-
-
-   <LinkContainer to="/Contact">
-      <ReactBootStrap.Nav.Link href="/Contact"><p className="navcontact">contact</p></ReactBootStrap.Nav.Link>
-    </LinkContainer>
+      <ReactBootStrap.Nav.Link href="#seecontact"><p className="navcontact">contact</p></ReactBootStrap.Nav.Link>
+    
 
   </ReactBootStrap.Navbar.Collapse>
 

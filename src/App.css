@@ -5,13 +5,13 @@
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
-  color: white;
+  color: black;
 }
 .navprojects{
   font-family: acumin-pro, sans-serif;
   font-weight: 200;
   font-style: normal;
-  color: white;
+  color: black;
   font-size: 17px;
 }
 
@@ -19,7 +19,7 @@
   font-family: acumin-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: black;
   font-size: 17px;
 
 }
@@ -28,7 +28,7 @@
   font-family: acumin-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: white;
+  color: black;
   font-size: 17px; 
 }
 
@@ -123,18 +123,18 @@
   font-weight: 700;
   font-style: normal;
   padding-top: 25px;
-  color: white;
+  color: black;
   font-size: 25px;
 }
 .endicon{
-  color:white;
+  color:black;
   font-size: 17px;
   margin:10px;
   margin-top: 30px;
 }
 .endsub{
   font-size: 13px;
-  color:white;
+  color:black;
 }
 .love{
   font-family: acumin-pro, sans-serif;
@@ -142,7 +142,7 @@
   font-style: normal;
   font-size: 15px;
   padding-top: 30px;
-  color: white;
+  color: black;
 }
 .projecttitle{
   font-family: acumin-pro, sans-serif;
@@ -197,7 +197,7 @@
   font-style: normal;
   color: white;  
   font-size: 50px;
-  padding-top: 50px; 
+  padding-top: 130px; 
 }
 
 .certtitlesub{
@@ -230,7 +230,7 @@
   font-style: normal;
   color: white;  
   font-size: 50px;
-  padding-top: 50px;   
+  padding-top: 110px;   
 }
 
 .contacttitlesub{
@@ -286,12 +286,12 @@
 }
 .homepagediv{
   background-color: black;
-  height: 1800px;
+  height: 100%;
   padding-top: 60px;
 }
 
 .bottomdiv{
-  background-color: black;
+  background-color: white;
   height:120px;
   margin-top: 26px;
 }
@@ -371,7 +371,7 @@ and (max-width:480px) {
     margin-top: 40px;
   }
   .homepagediv{
-    height:2070px;
+    
   }
   .endtitle{
     font-size: 15px;
